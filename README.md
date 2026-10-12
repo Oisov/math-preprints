@@ -13,6 +13,7 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Zeros of optimal polynomial approximants in H^p | [`papers/opa-zeros.pdf`](papers/opa-zeros.pdf) | 2026-10-12 |
 | Sharp Bernstein-Nikolskii constants for trigonometric polynomials converge to those for entire functions when q<infinity | [`papers/bernstein-nikolskii.pdf`](papers/bernstein-nikolskii.pdf) | 2026-10-11 |
 | A Bessel inequality for point evaluations in Hardy and Bergman spaces of Dirichlet series | [`papers/hellinger-bessel.pdf`](papers/hellinger-bessel.pdf) | 2026-10-12 |
+| A remark on local logarithmic embeddings for the Nevanlinna class of Dirichlet series | [`papers/nevanlinna-local-embedding.pdf`](papers/nevanlinna-local-embedding.pdf) | 2026-10-12 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted
