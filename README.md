@@ -19,6 +19,7 @@ constants. These are drafts: they have not been refereed, and they may change.
 | The Hardy-Stein identity for vertical limits at the endpoint p=1 | [`papers/hardy-stein-endpoint.pdf`](papers/hardy-stein-endpoint.pdf) | 2026-10-12 |
 | Equality in the critical exponent inequality for the Riesz projection | [`papers/riesz-equality.pdf`](papers/riesz-equality.pdf) | 2026-10-12 |
 | Remarks on three conjectures on point evaluation in Paley-Wiener spaces | [`papers/pw-bcos-remarks.pdf`](papers/pw-bcos-remarks.pdf) | 2026-10-12 |
+| Bounded Jensen measures on the infinite polydisc and extension of Nevanlinna functions to l^2 | [`papers/nevanlinna-l2-extension.pdf`](papers/nevanlinna-l2-extension.pdf) | 2026-10-12 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted
