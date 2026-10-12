@@ -41,6 +41,8 @@ JOBS = [
      lambda o: o.count("C_d <=") == 4),
     ("Prop 9.14(3): pi*_2", "explicit-bounds/pi_star_2.py", [], True,
      lambda o: "pi*_2 in" in o),
+    ("Prop 9.14(3): C_2 >= 1.54792", "explicit-bounds/c2_lower.py", ["8192"], True,
+     lambda o: float(re.search(r"C_2 >= (\S+)", o).group(1)) >= 1.54792),
     ("Thm 8.6, Thm 9.2: symbolic identities (sympy)", "symbolic/symbolic_checks.py", [], "sympy",
      lambda o: "ALL OK" in o),
 ]

@@ -13,7 +13,7 @@ below for how to run it.
 - Python 3.10 or later.
 - `python-flint==0.9.0` (Arb ball arithmetic) for the scripts marked *Arb*:
   `python3 -m pip install --only-binary=:all: python-flint==0.9.0`.
-- The C₀ and spectral-gap scripts use only the standard library, with exact
+- The C₀ scripts and `spectral-gap/floquet_gap.py` use only the standard library, with exact
   rational or directed dyadic arithmetic.
 - The symbolic checks need `sympy`.
 - The Gaussian certificate needs `numpy` and `scipy`.
@@ -26,19 +26,31 @@ below for how to run it.
 | Thm 2.8 (local constant), 1/100 ≤ σ ≤ 2 | Schur rows below Γ(1/4)²/√(2π) on 268 cells; smallest margin 0.1769 | `local-constant/cells.py 0.01 2 1.02 1.005` | Arb |
 | Prop 3.7(3) (constant at p = 2) | C₀ > 2π + 2.875·10⁻⁷ | `C0/lower.py` (reads `C0/witness.json`) | exact dyadic |
 | Prop 3.7(3) | C₀ < 2π + 0.000973 < 2π + 10⁻³ | `C0/upper.py` | exact dyadic |
-| Remark 5.6 (a certified gap) | σ_ess ∩ (1.89 e^{c_R}, 2.11 e^{c_R}) = ∅ for the period-8 prime set | `spectral-gap/floquet_gap.py` | exact rational |
+| Remark 5.6 (a certified gap) | σ_ess ∩ (1.89 e^{c_R}, 2.11 e^{c_R}) = ∅ for the period-8 prime set: stored fibre certificates at 129 Bloch nodes and the operator error budget | `spectral-gap/floquet_gap.py` | exact rational |
 | Prop 9.14(1) | tail block ‖A′‖ ≤ 0.27085689 | `explicit-bounds/tail_block.py 2 2000` | Arb |
 | Prop 9.14(2) | primes ≤ 10²¹⁶: κ² ≤ 9.86343 < π² | `explicit-bounds/primes_below_1e216.py 890` | Arb |
 | Prop 9.14(3) | C_d ≤ 1.19914, 1.58582, 1.72142 (d = 1, 2, 3) | `explicit-bounds/first_d_primes.py 1e16 1 2 3` | Arb |
 | Prop 9.14(3) | C_d ≤ 1.80494, 1.84758, 1.88301, 1.90873 (d = 4, …, 7) | `explicit-bounds/first_d_primes.py 1e10 4 5 6 7` | Arb |
 | Prop 9.14(3) | 1.4578430 ≤ π*₂ ≤ 1.4579223 | `explicit-bounds/pi_star_2.py` | Arb |
+| Prop 9.14(3) | C₂ ≥ 1.54792 for the witness in `c2_witness.json` | `explicit-bounds/c2_lower.py 8192` | Arb, with a priori IEEE rounding bounds (needs numpy) |
 | Thm 8.6 (generator inequality); Thm 9.2 (column estimate) | the displayed polynomial identities and their signs | `symbolic/symbolic_checks.py` | exact (sympy) |
 
-## Not reproducible from this folder
+## Regenerating the spectral-gap certificate
 
-- **The lower bound C₂ ≥ 1.54792 in Prop 9.14(3).** The witness polynomial was
-  found by second-order cone programming, and its coefficients were not
-  preserved. The book states that this bound is not interval-certified.
+`run_all.py` checks the stored fibre certificates in `spectral-gap/floquet_gap.json`.
+To regenerate them from scratch (Arb entry enclosures, exact dyadic LDL
+inertia and residual bounds; needs python-flint, numpy and scipy):
+
+```
+cd spectral-gap
+python3 regenerate.py --nodes all --compare
+```
+
+This takes about 40 s per node, 129 nodes; `--nodes` also accepts a
+comma-separated list, so the run can be split over several processes.
+`--compare` also checks that each regenerated row equals the stored one; that
+needs binary64 results identical to the original run, while the pass/fail
+verdict does not.
 
 ## The Gaussian probabilistic certificate (Remark 11.10)
 
