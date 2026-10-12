@@ -17,8 +17,9 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Three remarks on norms of affine composition operators on the Hardy space of Dirichlet series | [`papers/affine-composition-norms.pdf`](papers/affine-composition-norms.pdf) | 2026-10-12 |
 | Two remarks on Hilbert points in Hardy spaces | [`papers/hilbert-points-remarks.pdf`](papers/hilbert-points-remarks.pdf) | 2026-10-12 |
 | The Hardy-Stein identity for vertical limits at the endpoint p=1 | [`papers/hardy-stein-endpoint.pdf`](papers/hardy-stein-endpoint.pdf) | 2026-10-12 |
+| Equality in the critical exponent inequality for the Riesz projection | [`papers/riesz-equality.pdf`](papers/riesz-equality.pdf) | 2026-10-12 |
+| Remarks on three conjectures on point evaluation in Paley-Wiener spaces | [`papers/pw-bcos-remarks.pdf`](papers/pw-bcos-remarks.pdf) | 2026-10-12 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted
-statements of the book and of the paper on optimal polynomial approximants;
-see `numerics/README.md`.
+statements of the book and of the papers; see `numerics/README.md`.

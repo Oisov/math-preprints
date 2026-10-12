@@ -12,6 +12,11 @@ repository.
   `python3 hilbert-points/equal_modulus_certificate.py` certifies, in exact
   integer interval arithmetic (standard library only, a few seconds), that
   D(1/5) < 0 in Theorem 2.
+- `paley-wiener/`: the note *Remarks on three conjectures on point evaluation
+  in Paley–Wiener spaces*. `python3 paley-wiener/H-PW-2-certificate.py`
+  certifies Theorem 1 (Conjecture 9.2 of Brevig–Chirre–Ortega-Cerdà–Seip with
+  A = 7/100) in Arb ball arithmetic; pass `0.06` for A = 3/50. Requires
+  python-flint 0.9.0; about a minute.
 
 Where a statement rests on a computation, the scripts here are the complete
 check: exact rational or interval (Arb) arithmetic, except where a README says
