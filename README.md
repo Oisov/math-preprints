@@ -13,3 +13,7 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Zeros of optimal polynomial approximants in H^p | [`papers/opa-zeros.pdf`](papers/opa-zeros.pdf) | 2026-10-12 |
 | Sharp Bernstein-Nikolskii constants for trigonometric polynomials converge to those for entire functions when q<infinity | [`papers/bernstein-nikolskii.pdf`](papers/bernstein-nikolskii.pdf) | 2026-10-11 |
 
+
+The folder `numerics/` holds the scripts that check the computer-assisted
+statements of the book and of the paper on optimal polynomial approximants;
+see `numerics/README.md`.
