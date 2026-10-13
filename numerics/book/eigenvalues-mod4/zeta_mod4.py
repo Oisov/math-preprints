@@ -1,9 +1,9 @@
-"""Certificate for Theorem 5.12 (and Corollary 5.13).
+"""Certificate for Theorem 5.23 (and Corollary 5.24).
 
 R = primes p = 1 (mod 4), theta = 1/2.  With P(s) = prod_{p = 3 (4)} (1 - p^{-2s})
 and P = P(1),
     zeta_R(s)^2 = zeta(s) L(s, chi_4) (1 - 2^{-s}) P(s),   c_R^2 = pi P / 8.
-The proof of Theorem 5.12 reduces zeta_R(1+t) - 1 <= c_R t^{-1/2} (t > 0) to
+The proof of Theorem 5.23 reduces zeta_R(1+t) - 1 <= c_R t^{-1/2} (t > 0) to
 
   (A) 1 - c_R^2 <= sqrt(2) c_R                                        (t >= 1/2),
   (B) f_L(1/2) <= sqrt(2) c_R,  f_L(t) = P (Q(t) e^{K t} - pi/8)       (0 < t <= 1/2),
@@ -17,7 +17,7 @@ Rigorous inputs (Arb balls at 128 bits), with X = 10^6:
       (since (log t)/t^2 decreases for t >= 2 and int_X^oo 2 log t / t^2 dt
        = 2 (log X + 1) / X).
 The script also encloses c_R and L_R = c_R Gamma(1/4)^2 / sqrt(pi) and checks
-the decimal bounds printed in Theorem 5.12 and its proof.
+the decimal bounds printed in Theorem 5.23 and its proof.
 
 Run: python3 zeta_mod4.py   (needs python-flint; well under a second)
 """

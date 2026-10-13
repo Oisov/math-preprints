@@ -1,4 +1,4 @@
-"""Theorem 2.8 (local constant), analytic part sigma <= 1/100.
+"""Theorem 2.9 (local constant), analytic part sigma <= 1/100.
 
 The margin g(s) decreases in s; the theorem needs g(1/100) > 0 (about 0.0926).
 Requires python-flint (Arb ball arithmetic).

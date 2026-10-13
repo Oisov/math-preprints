@@ -1,4 +1,4 @@
-"""Regenerate the Remark 5.6 certificate from scratch (stored in floquet_gap.json).
+"""Regenerate the Remark 5.8 certificate from scratch (stored in floquet_gap.json).
 
 For each Bloch node m = 0, ..., 128 (k = m pi/128) this
 * encloses every entry of the 128 x 128 fibre matrix in Arb (images |n| <= 12),

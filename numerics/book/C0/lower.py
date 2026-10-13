@@ -1,7 +1,7 @@
 """Directed dyadic arithmetic certificate for a fixed C0 polynomial witness.
 
 Only Python's standard library is used. Floating point is used for printed
-summaries, never for the sign decision. See Proposition 3.7 (constant at p=2) of the book.
+summaries, never for the sign decision. See Proposition 3.8 (constant at p=2) of the book.
 """
 from fractions import Fraction as F
 from math import factorial, comb

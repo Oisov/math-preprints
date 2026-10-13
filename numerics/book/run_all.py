@@ -15,16 +15,16 @@ HERE = Path(__file__).resolve().parent
 
 # (description, script, args, needs_arb, check) -- check(stdout) -> bool
 JOBS = [
-    ("Prop 3.7(3): C0 > 2pi + 2.875e-7", "C0/lower.py", [], False,
+    ("Prop 3.8(3): C0 > 2pi + 2.875e-7", "C0/lower.py", [], False,
      lambda o: "Exact interval sign: positive" in o
      and float(re.search(r"Lower excess above 2pi: (\S+)", o).group(1)) > 2.875e-7),
-    ("Prop 3.7(3): C0 < 2pi + 1e-3", "C0/upper.py", [], False,
+    ("Prop 3.8(3): C0 < 2pi + 1e-3", "C0/upper.py", [], False,
      lambda o: float(re.search(r"Final C0 excess upper: (\S+)", o).group(1)) < 1e-3),
-    ("Remark 5.6: certified spectral gap", "spectral-gap/floquet_gap.py", [], False,
+    ("Remark 5.8: certified spectral gap", "spectral-gap/floquet_gap.py", [], False,
      lambda o: o.strip().splitlines()[-1].startswith("PASS")),
-    ("Thm 2.8: local constant, sigma <= 1/100", "local-constant/small_sigma.py", [], True,
+    ("Thm 2.9: local constant, sigma <= 1/100", "local-constant/small_sigma.py", [], True,
      lambda o: "PASS" in o),
-    ("Thm 2.8: local constant, 268 cells", "local-constant/cells.py",
+    ("Thm 2.9: local constant, 268 cells", "local-constant/cells.py",
      ["0.01", "2", "1.02", "1.005"], True,
      lambda o: float(re.search(r"WORST \(\S+, (\S+)\)", o).group(1)) > 0.17),
     ("Prop 9.14(1): tail block <= 0.27085689", "explicit-bounds/tail_block.py",
@@ -44,9 +44,9 @@ JOBS = [
     ("Prop 9.14(3): C_2 >= 1.54792", "explicit-bounds/c2_lower.py", ["8192"], True,
      lambda o: float(re.search(r"C_2 >= (\S+)", o).group(1)) >= 1.54792
      and float(re.search(r"\|\|q\|\|_1 <= (\S+)", o).group(1)) <= 1.0005030),
-    ("Prop 4.24: two-atom phase integral > 17/100 > 1/A", "positive-nehari/two_atom_phase.py", [], True,
+    ("Prop 4.23: two-atom phase integral > 17/100 > 1/A", "positive-nehari/two_atom_phase.py", [], True,
      lambda o: "phase integral > 17/100" in o),
-    ("Thm 5.12: zeta_R(1+t) - 1 <= c_R t^(-1/2)", "eigenvalues-mod4/zeta_mod4.py", [], True,
+    ("Thm 5.23: zeta_R(1+t) - 1 <= c_R t^(-1/2)", "eigenvalues-mod4/zeta_mod4.py", [], True,
      lambda o: "CERTIFIED" in o),
     ("Thm 6.19 (Lemmas 6.20-6.22): unimodality bounds and convexity",
      "bergman-unimodality/unimodality.py", [], True,
