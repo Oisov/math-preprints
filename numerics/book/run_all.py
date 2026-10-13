@@ -43,6 +43,8 @@ JOBS = [
      lambda o: "pi*_2 in" in o),
     ("Prop 9.14(3): C_2 >= 1.54792", "explicit-bounds/c2_lower.py", ["8192"], True,
      lambda o: float(re.search(r"C_2 >= (\S+)", o).group(1)) >= 1.54792),
+    ("Prop 4.24: two-atom phase integral > 17/100 > 1/A", "positive-nehari/two_atom_phase.py", [], True,
+     lambda o: "phase integral > 17/100" in o),
     ("Thm 8.6, Thm 9.2: symbolic identities (sympy)", "symbolic/symbolic_checks.py", [], "sympy",
      lambda o: "ALL OK" in o),
 ]

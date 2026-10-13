@@ -33,6 +33,7 @@ below for how to run it.
 | Prop 9.14(3) | C_d ≤ 1.80494, 1.84758, 1.88301, 1.90873 (d = 4, …, 7) | `explicit-bounds/first_d_primes.py 1e10 4 5 6 7` | Arb |
 | Prop 9.14(3) | 1.4578430 ≤ π*₂ ≤ 1.4579223 | `explicit-bounds/pi_star_2.py` | Arb |
 | Prop 9.14(3) | C₂ ≥ 1.54792 for the witness in `c2_witness.json` | `explicit-bounds/c2_lower.py 8192` | Arb, with a priori IEEE rounding bounds (needs numpy) |
+| Prop 4.24 (Positive Nehari fails: two-atom witness) | the phase integral exceeds 17/100 > 1/A, so D(σ) > C₂(σ) | `positive-nehari/two_atom_phase.py` | Arb, with outward-rounded binary64 intervals (needs numpy) |
 | Thm 8.6 (generator inequality); Thm 9.2 (column estimate) | the displayed polynomial identities and their signs | `symbolic/symbolic_checks.py` | exact (sympy) |
 
 ## Regenerating the spectral-gap certificate
