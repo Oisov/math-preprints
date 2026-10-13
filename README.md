@@ -22,6 +22,16 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Bounded Jensen measures on the infinite polydisc and extension of Nevanlinna functions to l^2 | [`papers/nevanlinna-l2-extension.pdf`](papers/nevanlinna-l2-extension.pdf) | 2026-10-12 |
 | The norm of the partial sum operator on the Hardy space H^1 of Dirichlet series | [`papers/h1-partial-sums.pdf`](papers/h1-partial-sums.pdf) | 2026-10-13 |
 | A lower bound for the Sidon constant of Dirichlet polynomials in H^1 | [`papers/sidon-h1-lower.pdf`](papers/sidon-h1-lower.pdf) | 2026-10-13 |
+| Positive Helson matrices without bounded symbols | [`papers/positive-helson.pdf`](papers/positive-helson.pdf) | 2026-10-13 |
+| Zeros of the extremal functions for point evaluation in Paley-Wiener spaces | [`papers/bcos-conjectures.pdf`](papers/bcos-conjectures.pdf) | 2026-10-13 |
+| An upper bound for the Bohr radius of the unit ball of l_p^n, 1<p<2 | [`papers/bohr-lp.pdf`](papers/bohr-lp.pdf) | 2026-10-13 |
+| Remarks on five questions of Bayart and Yao on composition operators | [`papers/bayart-yao-questions.pdf`](papers/bayart-yao-questions.pdf) | 2026-10-13 |
+| Remarks on three sharpness questions for composition operators on spaces of Dirichlet series | [`papers/composition-sharpness.pdf`](papers/composition-sharpness.pdf) | 2026-10-13 |
+| Three open problems of Hu and Virtanen on the Berger-Coburn phenomenon | [`papers/berger-coburn.pdf`](papers/berger-coburn.pdf) | 2026-10-13 |
+| Hankel operators from A^1_omega to L^1_omega with logarithmic BMO symbols | [`papers/log-bmo-hankel.pdf`](papers/log-bmo-hankel.pdf) | 2026-10-13 |
+| Remarks on the zeros of optimal polynomial approximants | [`papers/opa-zeros-remarks.pdf`](papers/opa-zeros-remarks.pdf) | 2026-10-13 |
+| The multiplicative autocorrelation of the fractional part has no local maximum at irrational points | [`papers/autocorrelation-maxima.pdf`](papers/autocorrelation-maxima.pdf) | 2026-10-13 |
+| Apical Helson-Szego weights and saturated outer functions | [`papers/apical-weights.pdf`](papers/apical-weights.pdf) | 2026-10-13 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted

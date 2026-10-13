@@ -1,4 +1,4 @@
-"""Certify the phase integral for the two-atom F032 counterexample.
+"""Certify the phase integral for the two-atom positive Nehari counterexample.
 
 Run: uv run --with numpy==2.5.4 --with python-flint==0.9.0 python -I \
      two_atom_phase.py
@@ -10,7 +10,9 @@ correctly rounded operation. No NumPy trigonometric function is used.
 Cell lower bounds are rounded DOWN to multiples of 2^-40 and summed as
 integers (each plane fits int64, the outer sum uses Python integers).
 The exact final comparison is integral Re(conj(U)/U) > 17/100 > 1/A.
-See the proof of Proposition 4.24 in the book for the cell derivative bound.
+See the proof of the two-atom proposition (Positive Helson chapter of the book;
+Lemma 6 of "Positive Helson matrices without bounded symbols") for the cell
+derivative bound.
 """
 import math
 from fractions import Fraction

@@ -32,8 +32,13 @@ below for how to run it.
 | Prop 9.14(3) | C_d ≤ 1.19914, 1.58582, 1.72142 (d = 1, 2, 3) | `explicit-bounds/first_d_primes.py 1e16 1 2 3` | Arb |
 | Prop 9.14(3) | C_d ≤ 1.80494, 1.84758, 1.88301, 1.90873 (d = 4, …, 7) | `explicit-bounds/first_d_primes.py 1e10 4 5 6 7` | Arb |
 | Prop 9.14(3) | 1.4578430 ≤ π*₂ ≤ 1.4579223 | `explicit-bounds/pi_star_2.py` | Arb |
-| Prop 9.14(3) | C₂ ≥ 1.54792 for the witness in `c2_witness.json` | `explicit-bounds/c2_lower.py 8192` | Arb, with a priori IEEE rounding bounds (needs numpy) |
+| Prop 9.14(3) | C₂ ≥ 1.54792 and ‖q‖₁ ≤ 1.0005030 for the witness in `c2_witness.json` | `explicit-bounds/c2_lower.py 8192` | Arb, with a priori IEEE rounding bounds (needs numpy) |
 | Prop 4.24 (Positive Nehari fails: two-atom witness) | the phase integral exceeds 17/100 > 1/A, so D(σ) > C₂(σ) | `positive-nehari/two_atom_phase.py` | Arb, with outward-rounded binary64 intervals (needs numpy) |
+| Thm 5.12, Cor 5.13 (no eigenvalues, R = {p ≡ 1 mod 4}) | P ∈ [0.856108, 0.856110], K ≤ 0.45751, c_R ∈ [0.579821, 0.579822], L_R ∈ [4.30012, 4.30014]; both scalar inequalities of the proof | `eigenvalues-mod4/zeta_mod4.py` | Arb |
+| Lemma 6.20 (Thm 6.19, unimodality) | N(19/10) < 1.2313, N(13/5) < 1.3438 (Schur tests, 2291 cells each), N(3) > 1.6031 (Rayleigh quotient), Λ_{8/5} > 1.5169; the slopes of Lemma 6.21 | `bergman-unimodality/unimodality.py` | Arb, with directed binary64 sums (needs numpy) |
+| Lemma 6.22 (Thm 6.19) | Φ_q''(α) > 0 for α ∈ [8/5, 3], 10⁻⁴⁰ ≤ q ≤ 8, on the boxes of the stored tree `convex_tree.json` (regenerate with `make_convex_tree.py`) | `bergman-unimodality/unimodality.py` | Arb |
+| Prop 8.10 (clipped Gaussian moment) | Φ/(2^{n−1}K₋³) ≤ −0.01165 for 194 ≤ n ≤ 3998 on the 11 blocks in `clipped_blocks.json` (regenerate with `make_blocks.py`); constants of Prop 8.9, N = 3999 | `clipped-gaussian/clipped_finite.py` | Arb |
+| Thm 9.15 (three primes) | C₃ > 1.5990217 > 1.599; ‖T‖ ≤ 1.56179569435114 by Schur's test with the weights in `schur_weights.json` (regenerate with `make_weights.py`), ‖E‖ < 0.000529, π*₃ < 1.56232458 < 1.5624 | `three-prime/pi3_upper.py` | Arb, with correctly rounded binary64 sums (needs numpy) |
 | Thm 8.6 (generator inequality); Thm 9.2 (column estimate) | the displayed polynomial identities and their signs | `symbolic/symbolic_checks.py` | exact (sympy) |
 
 ## Regenerating the spectral-gap certificate

@@ -42,9 +42,24 @@ JOBS = [
     ("Prop 9.14(3): pi*_2", "explicit-bounds/pi_star_2.py", [], True,
      lambda o: "pi*_2 in" in o),
     ("Prop 9.14(3): C_2 >= 1.54792", "explicit-bounds/c2_lower.py", ["8192"], True,
-     lambda o: float(re.search(r"C_2 >= (\S+)", o).group(1)) >= 1.54792),
+     lambda o: float(re.search(r"C_2 >= (\S+)", o).group(1)) >= 1.54792
+     and float(re.search(r"\|\|q\|\|_1 <= (\S+)", o).group(1)) <= 1.0005030),
     ("Prop 4.24: two-atom phase integral > 17/100 > 1/A", "positive-nehari/two_atom_phase.py", [], True,
      lambda o: "phase integral > 17/100" in o),
+    ("Thm 5.12: zeta_R(1+t) - 1 <= c_R t^(-1/2)", "eigenvalues-mod4/zeta_mod4.py", [], True,
+     lambda o: "CERTIFIED" in o),
+    ("Thm 6.19 (Lemmas 6.20-6.22): unimodality bounds and convexity",
+     "bergman-unimodality/unimodality.py", [], True,
+     lambda o: "ALL CHECKS PASSED" in o
+     and float(re.search(r"N\(19/10\) <= (\S+)", o).group(1)) < 1.2313
+     and float(re.search(r"N\(13/5\) <= (\S+)", o).group(1)) < 1.3438
+     and float(re.search(r"N\(3\) >= (\S+)", o).group(1)) > 1.6031
+     and "Phi_q''(alpha) > 0" in o),
+    ("Prop 8.10: Phi < 0 for 194 <= n <= 3998", "clipped-gaussian/clipped_finite.py", [], True,
+     lambda o: "certified for 194 <= n <= 3998" in o and "N=3999" in o
+     and float(re.search(r"bound (\S+) at n=194", o).group(1)) <= -0.01165),
+    ("Thm 9.15: C_3 > 1.599 > 1.5624 > pi*_3", "three-prime/pi3_upper.py", [], True,
+     lambda o: "OK: C_3 > 1.5990217" in o),
     ("Thm 8.6, Thm 9.2: symbolic identities (sympy)", "symbolic/symbolic_checks.py", [], "sympy",
      lambda o: "ALL OK" in o),
 ]
