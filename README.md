@@ -29,6 +29,7 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Remarks on three sharpness questions for composition operators on spaces of Dirichlet series | [`papers/composition-sharpness.pdf`](papers/composition-sharpness.pdf) | 2026-10-13 |
 | Three open problems of Hu and Virtanen on the Berger-Coburn phenomenon | [`papers/berger-coburn.pdf`](papers/berger-coburn.pdf) | 2026-10-13 |
 | Hankel operators from A^1_omega to L^1_omega with logarithmic BMO symbols | [`papers/log-bmo-hankel.pdf`](papers/log-bmo-hankel.pdf) | 2026-10-13 |
+| From S2 to S4: Nehari's theorem on the Paley-Wiener space of the disc | [`papers/pw-disc-endpoint.pdf`](papers/pw-disc-endpoint.pdf) | 2026-10-13 |
 | Remarks on the zeros of optimal polynomial approximants | [`papers/opa-zeros-remarks.pdf`](papers/opa-zeros-remarks.pdf) | 2026-10-13 |
 | The multiplicative autocorrelation of the fractional part has no local maximum at irrational points | [`papers/autocorrelation-maxima.pdf`](papers/autocorrelation-maxima.pdf) | 2026-10-13 |
 | Apical Helson-Szego weights and saturated outer functions | [`papers/apical-weights.pdf`](papers/apical-weights.pdf) | 2026-10-13 |
