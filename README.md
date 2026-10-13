@@ -6,6 +6,8 @@ constants. These are drafts: they have not been refereed, and they may change.
 
 | Title | File | Built |
 |---|---|---|
+| Questions on Hardy spaces and Hankel operators | [`problems/open-problems.pdf`](problems/open-problems.pdf) | 2026-10-13 |
+| Answers to questions on Hardy spaces and Hankel operators | [`problems/answers.pdf`](problems/answers.pdf) | 2026-10-13 |
 | Where Nehari's Theorem Survives (book draft, v4) | [`book/where-nehari-survives-v4.pdf`](book/where-nehari-survives-v4.pdf) | 2026-10-13 |
 | Extremal functions for linear functionals on H^p, 0<p<1, are outer (with O. F. Brevig) | [`papers/outer.pdf`](papers/outer.pdf) | 2026-10-10 |
 | A coefficient problem in H^p with prescribed value at the origin: zeros and the terminal interval | [`papers/prescribed.pdf`](papers/prescribed.pdf) | 2026-10-10 |
