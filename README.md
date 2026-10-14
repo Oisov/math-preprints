@@ -86,7 +86,7 @@ constants. These are drafts: they have not been refereed, and they may change.
 
 | Title | File | Built |
 |---|---|---|
-| Where Nehari's Theorem Survives (book draft, v4) | [`book/where-nehari-survives-v4.pdf`](book/where-nehari-survives-v4.pdf) | 2026-10-13 |
+| Where Nehari's Theorem Survives (book draft, v4) | [`book/where-nehari-survives-v4.pdf`](book/where-nehari-survives-v4.pdf) | 2026-10-14 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted
