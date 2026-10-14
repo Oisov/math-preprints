@@ -1,8 +1,12 @@
 # Mathematics preprints
 
-Working drafts and preprints by Øistein Søvik, mostly on Hardy spaces of
-Dirichlet series, Helson matrices, optimal polynomial approximants and sharp
-constants. These are drafts: they have not been refereed, and they may change.
+Drafts, proof sketches and a book draft on Hardy spaces of Dirichlet series,
+Helson matrices, optimal polynomial approximants and sharp constants, collected
+by Øistein Søvik. Most of the arguments were found with AI agents. Unless a
+file says otherwise, no specialist has checked them; whether a result is
+correct, new or interesting is for specialists to judge. Nothing here claims
+ownership or priority: anyone may check, rewrite, develop or publish these
+results, crediting the people who asked the questions. The files may change.
 
 ## Papers
 
