@@ -4,43 +4,10 @@ Working drafts and preprints by Øistein Søvik, mostly on Hardy spaces of
 Dirichlet series, Helson matrices, optimal polynomial approximants and sharp
 constants. These are drafts: they have not been refereed, and they may change.
 
+## Papers
+
 | Title | File | Built |
 |---|---|---|
-| A strictly singular noncompact composition operator | [`papers/strictly-singular-noncompact.pdf`](papers/strictly-singular-noncompact.pdf) | 2026-10-14 |
-| The BMOA contact-set converse | [`papers/bmoa-contact-set-converse.pdf`](papers/bmoa-contact-set-converse.pdf) | 2026-10-14 |
-| Compactness across Hardy exponents | [`papers/compactness-p-independence.pdf`](papers/compactness-p-independence.pdf) | 2026-10-14 |
-| Numerical range of a weighted composition operator | [`papers/numerical-range-weighted-composition.pdf`](papers/numerical-range-weighted-composition.pdf) | 2026-10-14 |
-| Davis--Wielandt shells of affine composition operators | [`papers/affine-dw-shell.pdf`](papers/affine-dw-shell.pdf) | 2026-10-14 |
-| Which boundedness sets can occur? | [`papers/operator-boundedness-sets.pdf`](papers/operator-boundedness-sets.pdf) | 2026-10-14 |
-| Maximal convergence abscissas for general frequencies | [`papers/maximal-abscissas-general-frequency.pdf`](papers/maximal-abscissas-general-frequency.pdf) | 2026-10-14 |
-| Cyclicity when the omitted curve has unbounded argument | [`papers/omitted-curve-cyclicity.pdf`](papers/omitted-curve-cyclicity.pdf) | 2026-10-14 |
-| Bass stable rank of a Dirichlet-series algebra | [`papers/bass-stable-rank-subsemigroup.pdf`](papers/bass-stable-rank-subsemigroup.pdf) | 2026-10-14 |
-| The translated partial-sum inequality | [`papers/bayart-owr17-partial-sums.pdf`](papers/bayart-owr17-partial-sums.pdf) | 2026-10-14 |
-| Counting functions in the completed Nevanlinna class | [`papers/completed-nevanlinna-vertical-counting.pdf`](papers/completed-nevanlinna-vertical-counting.pdf) | 2026-10-14 |
-| The order-zero mean-value formula in H^p | [`papers/hp-order-zero-mean-value.pdf`](papers/hp-order-zero-mean-value.pdf) | 2026-10-14 |
-| Questions on Hardy spaces and Hankel operators | [`problems/open-problems.pdf`](problems/open-problems.pdf) | 2026-10-14 |
-| Answers to questions on Hardy spaces and Hankel operators | [`problems/answers.pdf`](problems/answers.pdf) | 2026-10-14 |
-| Extremal vectors and norm attainment in complete Pick spaces | [`papers/complete-pick-norm-attaining.pdf`](papers/complete-pick-norm-attaining.pdf) | 2026-10-14 |
-| Compact and noncompact inverse Hankel choices | [`papers/inverse-hankel-compactness.pdf`](papers/inverse-hankel-compactness.pdf) | 2026-10-13 |
-| A converse Jensen-measure criterion | [`papers/jensen-mass-criterion.pdf`](papers/jensen-mass-criterion.pdf) | 2026-10-13 |
-| Separation of simplest-fraction sets in A²₁ | [`papers/abf-separation.pdf`](papers/abf-separation.pdf) | 2026-10-14 |
-| The inner-translate candidate for the backward-shift norm | [`papers/backward-shift-inner-translate.pdf`](papers/backward-shift-inner-translate.pdf) | 2026-10-14 |
-| The divisor-restricted Gál form over square-free sets | [`papers/divisor-restricted-gal-form.pdf`](papers/divisor-restricted-gal-form.pdf) | 2026-10-14 |
-| Uniqueness of the radial L1d extremal | [`papers/gorbachev-radial-uniqueness.pdf`](papers/gorbachev-radial-uniqueness.pdf) | 2026-10-14 |
-| Four-digit accuracy of the monotone-delta constant | [`papers/monotone-delta-four-digits.pdf`](papers/monotone-delta-four-digits.pdf) | 2026-10-14 |
-| The Blaschke condition below two | [`papers/blaschke-below-two.pdf`](papers/blaschke-below-two.pdf) | 2026-10-14 |
-| Local Nevanlinna membership below two | [`papers/local-nevanlinna-membership.pdf`](papers/local-nevanlinna-membership.pdf) | 2026-10-14 |
-| Extending boundary composition to the completed Nevanlinna class | [`papers/completed-nevanlinna-boundary.pdf`](papers/completed-nevanlinna-boundary.pdf) | 2026-10-14 |
-| Finite perturbations can destroy Fourier interpolation | [`papers/finite-perturb-interpolation.pdf`](papers/finite-perturb-interpolation.pdf) | 2026-10-14 |
-| Are the perfect squares a stationary set? | [`papers/square-stationary-set.pdf`](papers/square-stationary-set.pdf) | 2026-10-14 |
-| Asymptotic norm of the Bloch-to-Bergman inclusion | [`papers/bloch-bergman-asymptotic-norm.pdf`](papers/bloch-bergman-asymptotic-norm.pdf) | 2026-10-14 |
-| Tight Hardy-to-Bergman inclusions on the unit ball | [`papers/tight-hardy-bergman-ball.pdf`](papers/tight-hardy-bergman-ball.pdf) | 2026-10-14 |
-| Contractive projections on H^p for 0<p<1 | [`papers/contractive-projections-small-p.pdf`](papers/contractive-projections-small-p.pdf) | 2026-10-14 |
-| Gegenbauer probability-measure hypercontractivity | [`papers/gegenbauer-hypercontractivity.pdf`](papers/gegenbauer-hypercontractivity.pdf) | 2026-10-14 |
-| Rank-fourteen obstruction to same-rank evaluation approximation | [`papers/same-rank-evaluation-approximation.pdf`](papers/same-rank-evaluation-approximation.pdf) | 2026-10-14 |
-| Two mechanisms for the Schatten threshold four | [`papers/two-p4-mechanisms.pdf`](papers/two-p4-mechanisms.pdf) | 2026-10-14 |
-| A finite-rank Hankel form missed by point jets | [`papers/deck-gross-finite-rank-jets.pdf`](papers/deck-gross-finite-rank-jets.pdf) | 2026-10-14 |
-| Where Nehari's Theorem Survives (book draft, v4) | [`book/where-nehari-survives-v4.pdf`](book/where-nehari-survives-v4.pdf) | 2026-10-13 |
 | Extremal functions for linear functionals on H^p, 0<p<1, are outer (with O. F. Brevig) | [`papers/outer.pdf`](papers/outer.pdf) | 2026-10-10 |
 | A coefficient problem in H^p with prescribed value at the origin: zeros and the terminal interval | [`papers/prescribed.pdf`](papers/prescribed.pdf) | 2026-10-10 |
 | The second coefficient of H^p functions with prescribed value at the origin | [`papers/second-coefficient.pdf`](papers/second-coefficient.pdf) | 2026-10-10 |
@@ -67,6 +34,59 @@ constants. These are drafts: they have not been refereed, and they may change.
 | Remarks on the zeros of optimal polynomial approximants | [`papers/opa-zeros-remarks.pdf`](papers/opa-zeros-remarks.pdf) | 2026-10-13 |
 | The multiplicative autocorrelation of the fractional part has no local maximum at irrational points | [`papers/autocorrelation-maxima.pdf`](papers/autocorrelation-maxima.pdf) | 2026-10-13 |
 | Apical Helson-Szego weights and saturated outer functions | [`papers/apical-weights.pdf`](papers/apical-weights.pdf) | 2026-10-13 |
+
+
+## Problems
+
+| Title | File | Built |
+|---|---|---|
+| Questions on Hardy spaces and Hankel operators | [`problems/open-problems.pdf`](problems/open-problems.pdf) | 2026-10-14 |
+| Answers to questions on Hardy spaces and Hankel operators | [`problems/answers.pdf`](problems/answers.pdf) | 2026-10-14 |
+
+
+## Proof notes
+
+| Title | File | Built |
+|---|---|---|
+| A strictly singular noncompact composition operator | [`problems/notes/strictly-singular-noncompact.pdf`](problems/notes/strictly-singular-noncompact.pdf) | 2026-10-14 |
+| The BMOA contact-set converse | [`problems/notes/bmoa-contact-set-converse.pdf`](problems/notes/bmoa-contact-set-converse.pdf) | 2026-10-14 |
+| Compactness across Hardy exponents | [`problems/notes/compactness-p-independence.pdf`](problems/notes/compactness-p-independence.pdf) | 2026-10-14 |
+| Numerical range of a weighted composition operator | [`problems/notes/numerical-range-weighted-composition.pdf`](problems/notes/numerical-range-weighted-composition.pdf) | 2026-10-14 |
+| Davis--Wielandt shells of affine composition operators | [`problems/notes/affine-dw-shell.pdf`](problems/notes/affine-dw-shell.pdf) | 2026-10-14 |
+| Which boundedness sets can occur? | [`problems/notes/operator-boundedness-sets.pdf`](problems/notes/operator-boundedness-sets.pdf) | 2026-10-14 |
+| Maximal convergence abscissas for general frequencies | [`problems/notes/maximal-abscissas-general-frequency.pdf`](problems/notes/maximal-abscissas-general-frequency.pdf) | 2026-10-14 |
+| Cyclicity when the omitted curve has unbounded argument | [`problems/notes/omitted-curve-cyclicity.pdf`](problems/notes/omitted-curve-cyclicity.pdf) | 2026-10-14 |
+| Bass stable rank of a Dirichlet-series algebra | [`problems/notes/bass-stable-rank-subsemigroup.pdf`](problems/notes/bass-stable-rank-subsemigroup.pdf) | 2026-10-14 |
+| The translated partial-sum inequality | [`problems/notes/bayart-owr17-partial-sums.pdf`](problems/notes/bayart-owr17-partial-sums.pdf) | 2026-10-14 |
+| Counting functions in the completed Nevanlinna class | [`problems/notes/completed-nevanlinna-vertical-counting.pdf`](problems/notes/completed-nevanlinna-vertical-counting.pdf) | 2026-10-14 |
+| The order-zero mean-value formula in H^p | [`problems/notes/hp-order-zero-mean-value.pdf`](problems/notes/hp-order-zero-mean-value.pdf) | 2026-10-14 |
+| Extremal vectors and norm attainment in complete Pick spaces | [`problems/notes/complete-pick-norm-attaining.pdf`](problems/notes/complete-pick-norm-attaining.pdf) | 2026-10-14 |
+| Compact and noncompact inverse Hankel choices | [`problems/notes/inverse-hankel-compactness.pdf`](problems/notes/inverse-hankel-compactness.pdf) | 2026-10-13 |
+| A converse Jensen-measure criterion | [`problems/notes/jensen-mass-criterion.pdf`](problems/notes/jensen-mass-criterion.pdf) | 2026-10-13 |
+| Separation of simplest-fraction sets in A²₁ | [`problems/notes/abf-separation.pdf`](problems/notes/abf-separation.pdf) | 2026-10-14 |
+| The inner-translate candidate for the backward-shift norm | [`problems/notes/backward-shift-inner-translate.pdf`](problems/notes/backward-shift-inner-translate.pdf) | 2026-10-14 |
+| The divisor-restricted Gál form over square-free sets | [`problems/notes/divisor-restricted-gal-form.pdf`](problems/notes/divisor-restricted-gal-form.pdf) | 2026-10-14 |
+| Uniqueness of the radial L1d extremal | [`problems/notes/gorbachev-radial-uniqueness.pdf`](problems/notes/gorbachev-radial-uniqueness.pdf) | 2026-10-14 |
+| Four-digit accuracy of the monotone-delta constant | [`problems/notes/monotone-delta-four-digits.pdf`](problems/notes/monotone-delta-four-digits.pdf) | 2026-10-14 |
+| The Blaschke condition below two | [`problems/notes/blaschke-below-two.pdf`](problems/notes/blaschke-below-two.pdf) | 2026-10-14 |
+| Local Nevanlinna membership below two | [`problems/notes/local-nevanlinna-membership.pdf`](problems/notes/local-nevanlinna-membership.pdf) | 2026-10-14 |
+| Extending boundary composition to the completed Nevanlinna class | [`problems/notes/completed-nevanlinna-boundary.pdf`](problems/notes/completed-nevanlinna-boundary.pdf) | 2026-10-14 |
+| Finite perturbations can destroy Fourier interpolation | [`problems/notes/finite-perturb-interpolation.pdf`](problems/notes/finite-perturb-interpolation.pdf) | 2026-10-14 |
+| Are the perfect squares a stationary set? | [`problems/notes/square-stationary-set.pdf`](problems/notes/square-stationary-set.pdf) | 2026-10-14 |
+| Asymptotic norm of the Bloch-to-Bergman inclusion | [`problems/notes/bloch-bergman-asymptotic-norm.pdf`](problems/notes/bloch-bergman-asymptotic-norm.pdf) | 2026-10-14 |
+| Tight Hardy-to-Bergman inclusions on the unit ball | [`problems/notes/tight-hardy-bergman-ball.pdf`](problems/notes/tight-hardy-bergman-ball.pdf) | 2026-10-14 |
+| Contractive projections on H^p for 0<p<1 | [`problems/notes/contractive-projections-small-p.pdf`](problems/notes/contractive-projections-small-p.pdf) | 2026-10-14 |
+| Gegenbauer probability-measure hypercontractivity | [`problems/notes/gegenbauer-hypercontractivity.pdf`](problems/notes/gegenbauer-hypercontractivity.pdf) | 2026-10-14 |
+| Rank-fourteen obstruction to same-rank evaluation approximation | [`problems/notes/same-rank-evaluation-approximation.pdf`](problems/notes/same-rank-evaluation-approximation.pdf) | 2026-10-14 |
+| Two mechanisms for the Schatten threshold four | [`problems/notes/two-p4-mechanisms.pdf`](problems/notes/two-p4-mechanisms.pdf) | 2026-10-14 |
+| A finite-rank Hankel form missed by point jets | [`problems/notes/deck-gross-finite-rank-jets.pdf`](problems/notes/deck-gross-finite-rank-jets.pdf) | 2026-10-14 |
+
+
+## Book
+
+| Title | File | Built |
+|---|---|---|
+| Where Nehari's Theorem Survives (book draft, v4) | [`book/where-nehari-survives-v4.pdf`](book/where-nehari-survives-v4.pdf) | 2026-10-13 |
 
 
 The folder `numerics/` holds the scripts that check the computer-assisted
